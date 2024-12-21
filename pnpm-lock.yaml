@@ -152,8 +152,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(rollup@4.28.1)
       rollup-plugin-node-externals:
-        specifier: ^7.1.3
-        version: 7.1.3(rollup@4.28.1)
+        specifier: ^8.0.0
+        version: 8.0.0(rollup@4.28.1)
       vite:
         specifier: ^6.0.1
         version: 6.0.3(@types/node@22.10.1)(tsx@4.19.2)(yaml@2.6.1)
@@ -3745,11 +3745,11 @@ packages:
     peerDependencies:
       rollup: '*'
 
-  rollup-plugin-node-externals@7.1.3:
-    resolution: {integrity: sha512-RM+7tJAejAoRsCf93TptTSdqUhRA8S78DleihMiu54Kac+uLkd9VIegLPhGnaW3ehZTXh56+R301mFH6j2A7vw==}
+  rollup-plugin-node-externals@8.0.0:
+    resolution: {integrity: sha512-2HIOpWsWn5DqBoYl6iCAmB4kd5GoGbF68PR4xKR1YBPvywiqjtYvDEjHFodyqRL51iAMDITP074Zxs0OKs6F+g==}
     engines: {node: '>= 21 || ^20.6.0 || ^18.19.0'}
     peerDependencies:
-      rollup: ^3.0.0 || ^4.0.0
+      rollup: ^4.0.0
 
   rollup@4.28.1:
     resolution: {integrity: sha512-61fXYl/qNVinKmGSTHAZ6Yy8I3YIJC/r2m9feHo6SwVAVcLT5MPwOUFe7EuURA/4m0NR8lXG4BBXuo/IZEsjMg==}
@@ -8508,7 +8508,7 @@ snapshots:
       del: 5.1.0
       rollup: 4.28.1
 
-  rollup-plugin-node-externals@7.1.3(rollup@4.28.1):
+  rollup-plugin-node-externals@8.0.0(rollup@4.28.1):
     dependencies:
       rollup: 4.28.1
 
